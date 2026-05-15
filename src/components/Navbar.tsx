@@ -30,9 +30,16 @@ export default function Navbar() {
     >
       <div className="container-x flex h-18 items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-[var(--gradient-primary)] text-primary-foreground shadow-[var(--shadow-soft)]">
+          {/* <span className="grid h-9 w-9 place-items-center rounded-xl bg-[var(--gradient-primary)] text-primary-foreground shadow-[var(--shadow-soft)]">
             <FiMapPin className="h-5 w-5" />
-          </span>
+          </span> */}
+          <span className="grid h-15 w-15 place-items-center rounded-xl overflow-hidden shadow-[var(--shadow-soft)]">
+          <img
+            src="/src/assets/logo.jpeg"
+            alt="Logo"
+            className="h-full w-full object-cover"
+          />
+        </span>
           <span className={scrolled ? "text-foreground" : "text-white drop-shadow"}>
             TRAV<span className="text-blue-500">ROID</span>
           </span>
