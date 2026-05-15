@@ -7,9 +7,9 @@ import { blogPosts } from "@/data/tours";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Travel Stories & Guides — WanderLux Blog" },
-      { name: "description", content: "Travel tips, destination guides and expert advice from WanderLux travel curators." },
-      { property: "og:title", content: "WanderLux Travel Blog" },
+      { title: "Travel Stories & Guides — Travroid Blog" },
+      { name: "description", content: "Travel tips, destination guides and expert advice from Travroid travel curators." },
+      { property: "og:title", content: "Travroid Travel Blog" },
       { property: "og:description", content: "Stories from the road — guides, tips and inspiration." },
     ],
   }),
