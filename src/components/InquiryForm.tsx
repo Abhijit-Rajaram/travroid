@@ -22,7 +22,7 @@ export default function InquiryForm() {
     e.preventDefault();
 
     // Replace with your WhatsApp number
-    const whatsappNumber = "916380333135";
+    const whatsappNumber = "918870500948";
 
     const whatsappMessage = `
 🌍 *New Travel Inquiry*
