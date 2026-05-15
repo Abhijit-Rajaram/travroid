@@ -49,9 +49,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "WanderLux Holidays — Curated Luxury Travel Experiences" },
+      { title: "Travroid Holidays — Curated Luxury Travel Experiences" },
       { name: "description", content: "Handcrafted holiday packages to 60+ countries. Honeymoon, family, international and domestic tours by India's premium travel experts." },
-      { property: "og:title", content: "WanderLux Holidays" },
+      { property: "og:title", content: "Travroid Holidays" },
       { property: "og:description", content: "Curated luxury holidays for travelers who want stories, not itineraries." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
