@@ -7,9 +7,9 @@ import { tours, type Tour } from "@/data/tours";
 export const Route = createFileRoute("/tours")({
   head: () => ({
     meta: [
-      { title: "All Tours & Packages — WanderLux Holidays" },
+      { title: "All Tours & Packages — Travroid Holidays" },
       { name: "description", content: "Browse our full collection of curated tours: international, domestic, honeymoon and family holiday packages." },
-      { property: "og:title", content: "All Tours — WanderLux" },
+      { property: "og:title", content: "All Tours — Travroid" },
       { property: "og:description", content: "Browse curated holiday packages worldwide." },
     ],
   }),
