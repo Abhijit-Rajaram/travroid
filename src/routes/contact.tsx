@@ -5,9 +5,9 @@ import InquiryForm from "@/components/InquiryForm";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact WanderLux Holidays — Talk To A Travel Expert" },
+      { title: "Contact Travroid Holidays — Talk To A Travel Expert" },
       { name: "description", content: "Reach our team in Mumbai, Bangalore and Dubai. Plan your next trip with a real human in 2 hours." },
-      { property: "og:title", content: "Contact WanderLux" },
+      { property: "og:title", content: "Contact Travroid" },
       { property: "og:description", content: "Talk to a travel expert today." },
     ],
   }),
