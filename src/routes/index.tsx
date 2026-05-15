@@ -28,10 +28,10 @@ function HomePage() {
       <section className="border-y border-border bg-secondary/40">
         <div className="container-x grid grid-cols-2 gap-6 py-8 md:grid-cols-4">
           {[
-            { icon: FiAward, value: "15+ yrs", label: "Crafting journeys" },
-            { icon: FiHeart, value: "50,000+", label: "Happy travelers" },
+            { icon: FiAward, value: "-", label: "Crafting journeys" },
+            { icon: FiHeart, value: "-", label: "Happy travelers" },
             { icon: FiShield, value: "100%", label: "Safe & secure" },
-            { icon: FiStar, value: "4.9/5", label: "Average rating" },
+            { icon: FiStar, value: "-", label: "Average rating" },
           ].map(({ icon: Icon, value, label }) => (
             <div key={label} className="flex items-center gap-3">
               <span className="grid h-12 w-12 place-items-center rounded-2xl bg-[var(--gradient-primary)] text-primary-foreground"><Icon className="h-5 w-5" /></span>
