@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Travroid Holidays — Talk To A Travel Expert" },
-      { name: "description", content: "Reach our team in Mumbai, Bangalore and Dubai. Plan your next trip with a real human in 2 hours." },
+      { name: "description", content: "Reach our team in Pondi. Plan your next trip with a real human in 2 hours." },
       { property: "og:title", content: "Contact Travroid" },
       { property: "og:description", content: "Talk to a travel expert today." },
     ],
@@ -36,8 +36,8 @@ function ContactPage() {
             <div className="grid gap-4 sm:grid-cols-2">
               {[
                 { icon: FiMapPin, title: "Visit us", text: "2nd Floor, SJ Modern Tower, Vallalar Salai Road Kamaraj Nagar, Puducherry - 605011" },
-                { icon: FiPhone, title: "Call us", text: "+91 98765 43210" },
-                { icon: FiMail, title: "Email", text: "hr@travroid.com" },
+                { icon: FiPhone, title: "Call us", text: "+91 8870500948" },
+                { icon: FiMail, title: "Email", text: "Travroid.in@gmail.com" },
                 { icon: FiClock, title: "Hours", text: "All Days · 9 AM – 8 PM" },
               ].map((c) => (
                 <div key={c.title} className="card-elegant !p-5 bg-card flex items-start gap-3">
