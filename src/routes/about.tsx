@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Travroid — Our Story & Team" },
-      { name: "description", content: "Travroid Holidays has been crafting unforgettable journeys for 15+ years across 60+ destinations worldwide." },
+      { name: "description", content: "Travroid Holidays has been crafting unforgettable journeys for - years across 60+ destinations worldwide." },
       { property: "og:title", content: "About Travroid Holidays" },
       { property: "og:description", content: "Meet the team behind 50,000+ happy travelers." },
     ],
@@ -28,7 +28,7 @@ function AboutPage() {
       Our Story
     </span>
           <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold md:text-6xl">Travel is the only thing you buy that makes you richer.</h1>
-          <p className="mt-5 max-w-2xl text-slate-600 text-primary-foreground/85">For 15+ years, Travroid has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
+          <p className="mt-5 max-w-2xl text-slate-600 text-primary-foreground/85">For - years, Travroid has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
         </div>
       </section>
 
@@ -55,7 +55,8 @@ function AboutPage() {
             <span className="eyebrow text-blue-600">Who we are</span>
             <h2 className="mt-3 font-display text-3xl font-bold md:text-4xl">Crafting journeys that become memories</h2>
             <p className="mt-4 text-foreground/80 leading-relaxed">
-              Born in Mumbai in 2010, Travroid started as a passion project between three college friends obsessed with maps. Today we run handcrafted holidays across 60+ countries, with offices in Mumbai, Bangalore and Dubai.
+              {/* Born in Mumbai in 2010, Travroid started as a passion project between three college friends obsessed with maps. Today we run handcrafted holidays across 60+ countries, with offices in Mumbai, Bangalore and Dubai. */}
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
             <p className="mt-4 text-foreground/80 leading-relaxed">
               Every itinerary is hand-built by destination experts who have been there. No copy-paste templates. No call center.
@@ -108,10 +109,10 @@ function AboutPage() {
     <div className="rounded-3xl bg-[var(--gradient-primary)] px-6 py-12 text-black md:px-16">
       <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center">
         {[
-          { v: "50K+", l: "Happy travelers" },
-          { v: "60+", l: "Countries covered" },
-          { v: "15", l: "Years of magic" },
-          { v: "4.9", l: "Customer rating" },
+          { v: "-", l: "Happy travelers" },
+          { v: "-", l: "Countries covered" },
+          { v: "-", l: "Years of magic" },
+          { v: "-", l: "Customer rating" },
         ].map((s) => (
           <div key={s.l}>
             <p className="font-display text-4xl text-blue-500 font-bold md:text-5xl">{s.v}</p>
