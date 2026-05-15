@@ -89,14 +89,14 @@ function BlogPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-3xl bg-[var(--gradient-primary)] p-6 text-primary-foreground">
+            {/* <div className="rounded-3xl bg-[var(--gradient-primary)] p-6 text-primary-foreground">
               <h3 className="font-display text-lg font-bold">Subscribe</h3>
               <p className="mt-1 text-sm text-primary-foreground/85">Monthly handpicked stories.</p>
               <form onSubmit={(e) => e.preventDefault()} className="mt-4 flex gap-2">
                 <input type="email" placeholder="Your email" className="flex-1 rounded-full border border-white/30 bg-white/15 px-4 py-2.5 text-sm placeholder:text-primary-foreground/70 outline-none focus:border-white" />
                 <button className="rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-accent-foreground">Join</button>
               </form>
-            </div>
+            </div> */}
           </aside>
         </div>
       </section>
