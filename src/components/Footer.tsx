@@ -43,8 +43,8 @@ export default function Footer() {
           <h4 className="font-semibold text-foreground mb-4">Reach Us</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li className="flex gap-3"><FiMapPin className="mt-0.5 h-4 w-4 text-accent shrink-0" /> 2nd Floor, SJ Modern Tower, Vallalar Salai Road Kamaraj Nagar, Puducherry - 605011</li>
-            <li className="flex gap-3"><FiPhone className="mt-0.5 h-4 w-4 text-accent shrink-0" /> +91 </li>
-            <li className="flex gap-3"><FiMail className="mt-0.5 h-4 w-4 text-accent shrink-0" /> hr@travroid.com</li>
+            <li className="flex gap-3"><FiPhone className="mt-0.5 h-4 w-4 text-accent shrink-0" /> +91 8870500948 <br /> +91 6385217493 </li>
+            <li className="flex gap-3"><FiMail className="mt-0.5 h-4 w-4 text-accent shrink-0" /> Travroid.in@gmail.com</li>
           </ul>
         </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
       <div className="border-t border-border">
         <div className="container-x py-5 flex flex-col md:flex-row gap-2 items-center justify-between text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} WanderLux Holidays. All rights reserved.</p>
-          <p>Crafted with ♡ for explorers everywhere.</p>
+          {/* <p>Crafted with ♡ for explorers everywhere.</p> */}
         </div>
       </div>
     </footer>
