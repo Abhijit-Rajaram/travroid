@@ -7,9 +7,9 @@ import hero from "@/assets/hero-1.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About WanderLux — Our Story & Team" },
-      { name: "description", content: "WanderLux Holidays has been crafting unforgettable journeys for 15+ years across 60+ destinations worldwide." },
-      { property: "og:title", content: "About WanderLux Holidays" },
+      { title: "About Travroid — Our Story & Team" },
+      { name: "description", content: "Travroid Holidays has been crafting unforgettable journeys for 15+ years across 60+ destinations worldwide." },
+      { property: "og:title", content: "About Travroid Holidays" },
       { property: "og:description", content: "Meet the team behind 50,000+ happy travelers." },
     ],
   }),
@@ -28,7 +28,7 @@ function AboutPage() {
       Our Story
     </span>
           <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold md:text-6xl">Travel is the only thing you buy that makes you richer.</h1>
-          <p className="mt-5 max-w-2xl text-slate-600 text-primary-foreground/85">For 15+ years, WanderLux has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
+          <p className="mt-5 max-w-2xl text-slate-600 text-primary-foreground/85">For 15+ years, Travroid has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
         </div>
       </section>
 
@@ -36,7 +36,7 @@ function AboutPage() {
   <div className="container-x relative">
     <span className="eyebrow !text-blue-600">Our story</span>
     <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold md:text-6xl">Travel is the only thing you buy that makes you richer.</h1>
-    <p className="mt-5 max-w-2xl text-gray-800/85">For 15+ years, WanderLux has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
+    <p className="mt-5 max-w-2xl text-gray-800/85">For 15+ years, Travroid has been turning bucket lists into boarding passes. We're a team of travelers, not just agents.</p>
   </div>
 </section> */}
 
@@ -55,7 +55,7 @@ function AboutPage() {
             <span className="eyebrow text-blue-600">Who we are</span>
             <h2 className="mt-3 font-display text-3xl font-bold md:text-4xl">Crafting journeys that become memories</h2>
             <p className="mt-4 text-foreground/80 leading-relaxed">
-              Born in Mumbai in 2010, WanderLux started as a passion project between three college friends obsessed with maps. Today we run handcrafted holidays across 60+ countries, with offices in Mumbai, Bangalore and Dubai.
+              Born in Mumbai in 2010, Travroid started as a passion project between three college friends obsessed with maps. Today we run handcrafted holidays across 60+ countries, with offices in Mumbai, Bangalore and Dubai.
             </p>
             <p className="mt-4 text-foreground/80 leading-relaxed">
               Every itinerary is hand-built by destination experts who have been there. No copy-paste templates. No call center.
