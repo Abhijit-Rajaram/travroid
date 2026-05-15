@@ -12,7 +12,7 @@ import "swiper/css";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WanderLux Holidays — Curated Luxury Travel" },
+      { title: "Travroid Holidays — Curated Luxury Travel" },
       { name: "description", content: "Discover handcrafted holiday packages to Maldives, Switzerland, Bali, Kerala and 60+ destinations worldwide." },
     ],
   }),
